@@ -1,0 +1,11 @@
+.seccion-collagen{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+
+
+.img-detalle{
+    height: 5%;
+}

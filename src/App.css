@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: 	#FAF9F6;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-none{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}

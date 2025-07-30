@@ -1,0 +1,30 @@
+.footer-seccion{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    border-top: 2px solid black;
+    padding: 100px;
+}
+
+.titulo-footer{
+    color: #ff7d12;;
+}
+
+.linone{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.flex-li{
+    display: flex;
+    gap: 10px;
+    font-size: 0.8rem;
+}
+
+@media (max-width:575px) {
+    .footer-seccion{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: start;
+        gap: 30px;
+    }
+}
