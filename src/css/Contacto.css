@@ -63,7 +63,12 @@
     background-color: #1c24a2;
     color: white;
 }
-
+.textContacto{
+    font-size: 0.7rem;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 575px) {
     .seccion-contacto{
     margin-top: 30%;

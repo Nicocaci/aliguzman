@@ -4,7 +4,7 @@
 
 .titulo-container {
     width: 100%;
-    background-color: #DADADA;
+    background-color: #efe5b5a6;
     height: 130px;
 }
 
@@ -15,7 +15,7 @@
 }
 .ver-mas{
     width: 100%;
-    background-color: #DADADA;
+    background-color: #efe5b5a6;
 }
 .grid-inicio {
     display: grid;
@@ -24,7 +24,7 @@
 
 .text-container {
     /* verde salvia */
-    background-color: #A8BDB2;
+    background-color: #efe5b5a6;
     display: flex;
     align-items: center;
 }
@@ -51,8 +51,7 @@
 .btn-inicio {
     padding: 10px 20px;
     font-size: 1rem;
-    font-weight: 600;
-    background-color: #DADADA;
+    background-color: #efe5b5a6;
     border: none;
     border-radius: 5px; 
     cursor: pointer;

@@ -6,12 +6,12 @@ const Galvanic = () => {
         <div>
             <div className='seccion-collagen'>
                 <div>
-                    <img className='' src="/facespa.png" alt="colagen" />
+                    <img className='foto-producto' src="/facespa.png" alt="colagen" />
                 </div>
                 <div>
-                    <h1>Kit Galvanic Face Spa Essentials</h1>
+                    <h1 className='titulo-detalle'>Kit Galvanic Face Spa Essentials</h1>
                     <strong>
-                        <ul>
+                        <ul className='text-detalle'>
                             <li>Es la más completa. Trabaja signos de ENVEJECIMIENTO</li>
                             <li>Trata LINEAS DE EXPRESION, ARRUGAS, TONIFICA Y NUTRE LA PIEL. Da FIRMEZA. Efecto Lifting.</li>
                             <li>Trabaja con tu corriente GALVANICA. Y SE USA CON GELES QUE ESTA IONIZADOS que nutren las células porque van a la tercera capa de la dermis.</li>
@@ -19,7 +19,7 @@ const Galvanic = () => {
                         </ul>
                     </strong>
                     <Link to={"/contacto"}>
-                        <button className='btn-inicio'>Hacé tu pedido</button>
+                        <div className='btn-container'><button className='btn-detalle'>Hacé tu pedido</button></div>
                     </Link>
 
                 </div>

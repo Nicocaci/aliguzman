@@ -1,5 +1,5 @@
 .titulo-productos{
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Poppins", sans-serif;
@@ -9,4 +9,18 @@
     background-color: #efe5b587;
     font-size: 2rem;
     height: 200px;
+}
+
+.foto-producto{
+    height: 300px;
+}
+.wellSpa{
+    overflow: hidden;
+}
+.textme{
+    font-size: 0.8rem;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

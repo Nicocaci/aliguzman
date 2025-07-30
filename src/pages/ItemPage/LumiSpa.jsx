@@ -7,13 +7,13 @@ const LumiSpa = () => {
         <div>
             <div className='seccion-collagen'>
                 <div>
-                    <img className='' src="/LUMISPA.png" alt="colagen" />
+                    <img className='foto-producto' src="/LUMISPA.png" alt="colagen" />
                 </div>
                 <div>
-                    <h1>ageLOC LumiSpa iO</h1>
-                    <strong><p>LIMPIEZA profunda por movimiento de doble oscilación que promueve la producción de COLAGENO  y ELASTINA</p></strong>
+                    <h1 className='titulo-detalle' >ageLOC LumiSpa iO</h1>
                     <strong>
-                        <ul>
+                        <ul className='text-detalle'>
+                            <li>LIMPIEZA profunda por movimiento de doble oscilación que promueve la producción de COLAGENO  y ELASTINA</li>
                             <li>Remueve CELULAS MUERTAS, retira el maquillaje, la suciedad.</li>
                             <li>Minimiza los POROS VISIBLES</li>
                             <li>A diferencia de los cepillos NO ROMPE LA PIEL</li>
@@ -23,7 +23,7 @@ const LumiSpa = () => {
                         </ul>
                     </strong>
                     <Link to={"/contacto"}>
-                        <button className='btn-inicio'>Hacé tu pedido</button>
+                        <div className='btn-container'><button className='btn-detalle'>Hacé tu pedido</button></div>
                     </Link>
                 </div>
             </div>

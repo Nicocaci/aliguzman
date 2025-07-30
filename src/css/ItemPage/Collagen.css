@@ -9,3 +9,35 @@ gap: 20px;
 .img-detalle{
     height: 5%;
 }
+.btn-detalle{
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #DADADA;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    color: black;
+    margin-bottom: 20%;
+}
+
+@media (max-width: 575px) {
+    .seccion-collagen{
+        flex-direction: column;
+    }
+    .img-detalle{
+        height: 400px;
+    }
+    .titulo-detalle{
+    display: flex;
+    justify-content: center;
+    }
+    .text-detalle{
+        font-size: 0.8rem;
+        padding: 30px;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: center;
+    }
+}

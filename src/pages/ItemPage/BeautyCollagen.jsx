@@ -10,9 +10,9 @@ const BeautyCollagen = () => {
           <img className='img-detalle' src="/collagensinfondo.png" alt="colagen" />
         </div>
         <div>
-          <h1>Beauty Collagen+</h1>
+          <h1 className='titulo-detalle'>Beauty Collagen+</h1>
           <strong>
-            <ul>
+            <ul className='text-detalle'>
               <li>El colágeno N1 del mercado. Importado de USA. Del laboratorio PHARMANEX de NUSKIN, líder mundial en nutrición</li>
               <li>Doble hidrolizado</li>
               <li>Absorción mayor al  99%</li>
@@ -24,7 +24,7 @@ const BeautyCollagen = () => {
             </ul>
           </strong>
           <Link to={"/contacto"}>
-            <button className='btn-inicio'>Hacé tu pedido</button>
+            <div className='btn-container'><button className='btn-detalle'>Hacé tu pedido</button></div>
           </Link>
         </div>
       </div>

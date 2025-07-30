@@ -7,12 +7,12 @@ const KitFacial = () => {
         <div>
             <div className='seccion-collagen'>
                 <div>
-                    <img className='foto-rutina' src="/nuevarutina.png" alt="colagen" />
+                    <img className='foto-producto' src="/nuevarutina.png" alt="colagen" />
                 </div>
                 <div>
-                    <h1>RUTINA PIEL RADIANTE</h1>
+                    <h1 className='titulo-detalle'>RUTINA PIEL RADIANTE</h1>
                     <strong>
-                        <ul className='ul-rutina'>
+                        <ul className='text-detalle'>
                             <li>El primer paso es un limpiador con AHA glicólico.
                                 El AHA glicólico es un activo derivado de fuentes naturales como la caña de azúcar, y es uno de los ingredientes más utilizados y efectivos tanto en la cosmetología como en la dermatología.
                             </li>
@@ -24,7 +24,7 @@ const KitFacial = () => {
                         </ul>
                     </strong>
                     <Link to={"/contacto"}>
-                        <button className='btn-inicio'>Hacé tu pedido</button>
+                        <div className='btn-container'><button className='btn-detalle'>Hacé tu pedido</button></div>
                     </Link>
                 </div>
             </div>

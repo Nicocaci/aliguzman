@@ -73,7 +73,7 @@ const Contacto = () => {
                         <p className='text-contacto'>ali_40_guz@hotmail.com</p>
                     </div>
 
-                    <p><strong>Si te interesa saber más sobre algún producto, dejame tu mensaje que me voy a estar comunicando con vos.</strong></p>
+                    <p><strong className='textContacto'>Si te interesa saber más sobre algún producto, dejame tu mensaje que me voy a estar comunicando con vos.</strong></p>
                 </div>
             </div>
 

@@ -7,12 +7,12 @@ const Omgea = () => {
         <div>
             <div className='seccion-collagen'>
                 <div>
-                    <img className='img-detalle-omega' src="/detalleomega.jpeg" alt="colagen" />
+                    <img className='foto-producto' src="/detalleomega.jpeg" alt="colagen" />
                 </div>
                 <div>
-                    <h1>Omega-3</h1>
+                    <h1 className='titulo-detalle'>Omega-3</h1>
                     <strong>
-                        <ul>
+                        <ul className='text-detalle'>
                             <li>Nuestro OMEGA está orientado a la salud cardiovascular. Tiene estudios clínicos y es un producto libre de contaminantes y metales peados.</li>
                             <li>Reduce el nivel de triglicéridos</li>
                             <li>Reduce el nivel de colesterol LDL</li>
@@ -23,7 +23,7 @@ const Omgea = () => {
                         </ul>
                     </strong>
                     <Link to={"/contacto"}>
-                        <button className='btn-inicio'>Hacé tu pedido</button>
+                        <div className='btn-container'><button className='btn-detalle'>Hacé tu pedido</button></div>
                     </Link>
                 </div>
             </div>

@@ -6,12 +6,12 @@ const WellSpa = () => {
         <div>
             <div className='seccion-collagen'>
                 <div>
-                    <img className='' src="/WALLSPA.png" alt="colagen" />
+                    <img className='foto-producto' src="/WALLSPA.png" alt="colagen" />
                 </div>
                 <div>
-                    <h1>ageLOC WellSpa iO</h1>
+                    <h1 className='titulo-detalle'>ageLOC WellSpa iO</h1>
                     <strong>
-                        <ul>
+                        <ul className='text-detalle'>
                             <li>Es una tecnología que integra SALUD y BIENESTAR.</li>
                             <li>REVITALIZA, RECUPERA, REACTIVA</li>
                             <li>Tratamiento estético corporal PIEL DE NARANJA, ADIPOSIDAD, CELULITIS, FLACIDEZ, ARAÑITAS.</li>
@@ -22,7 +22,7 @@ const WellSpa = () => {
                         </ul>
                     </strong>
                     <Link to={"/contacto"}>
-                        <button className='btn-inicio'>Hacé tu pedido</button>
+                        <div className='btn-container'><button className='btn-detalle'>Hacé tu pedido</button></div>
                     </Link>
                 </div>
             </div>

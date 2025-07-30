@@ -6,12 +6,12 @@ const Boost = () => {
         <div>
             <div className='seccion-collagen'>
                 <div>
-                    <img className='' src="/boostSinfONDO.png" alt="colagen" />
+                    <img className='foto-producto' src="/boostSinfONDO.png" alt="colagen" />
                 </div>
                 <div>
-                    <h1>ageLOC Boost</h1>
+                    <h1 className='titulo-detalle'>ageLOC Boost</h1>
                     <strong>
-                        <ul>
+                        <ul className='text-detalle'>
                             <li>GYM FACIAL estimula al musculo facial, dándole VOLUMEN Y DENSIDAD. No es Abrasivo.</li>
                             <li>Resultados similares al BOTOX FACIAL.</li>
                             <li>Genera RENOVACIÓN CELULAR.</li>
@@ -21,7 +21,7 @@ const Boost = () => {
                         </ul>
                     </strong>
                     <Link to={"/contacto"}>
-                        <button className='btn-inicio'>Hacé tu pedido</button>
+                        <div className='btn-container'><button className='btn-detalle'>Hacé tu pedido</button></div>
                     </Link>
                 </div>
             </div>
