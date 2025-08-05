@@ -13,10 +13,12 @@
     font-size: 1rem;
     color: black;
 }
-.ver-mas{
+
+.ver-mas {
     width: 100%;
     background-color: #a8bdb2;
 }
+
 .grid-inicio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -26,6 +28,7 @@
     /* verde salvia */
     background-color: #FAF9F6;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -54,13 +57,14 @@
     font-size: 1.3rem;
     background-color: #a8bdb2;
     border: none;
-    border-radius: 5px; 
+    border-radius: 5px;
     cursor: pointer;
     color: black;
     margin-bottom: 20%;
     text-decoration: underline;
 }
-.btn-inicio:hover{
+
+.btn-inicio:hover {
     color: #85958d;
 
 }
@@ -118,9 +122,6 @@
         order: 1;
     }
 
-    .text-container{
-        flex-direction: column;
-    }
 
     .texto-inicio {
         max-width: 90vw;
@@ -154,13 +155,16 @@
     .foto-omega {
         overflow: hidden;
     }
-    .omega{
+
+    .omega {
         height: 350px;
     }
-    .ali{
+
+    .ali {
         overflow: hidden;
     }
+
     .img-banner {
-    height: 30vh;
-}
+        height: 30vh;
+    }
 }
