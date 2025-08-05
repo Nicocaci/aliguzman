@@ -5,8 +5,8 @@
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: #ff7d12;
-    background-color: #efe5b587;
+    color: black;
+    background-color: #a8bdb2;
     font-size: 2rem;
     height: 200px;
 }
@@ -24,3 +24,4 @@
     flex-direction: column;
     justify-content: center;
 }
+

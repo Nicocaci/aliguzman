@@ -1,8 +1,4 @@
-.titulo-contacto{
-    width: 100%;
-    background-color: #efe5b587;
-    height: 130px;
-}
+
 
 .contactoData {
     flex-direction: column;
@@ -27,8 +23,8 @@
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: #ff7d12;
-    background-color: #efe5b587;
+    color: black;
+    background-color: #a8bdb2;
     font-size: 2rem;
     height: 200px;
 }
@@ -51,7 +47,7 @@
 }
 
 .formulario-contacto button {
-    background-color: #ff7d12;
+    background-color: #a8bdb2;
     color: black;
     border: none;
     padding: 10px;

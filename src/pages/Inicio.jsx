@@ -49,6 +49,7 @@ const Inicio = () => {
             <div className='grid-inicio'>
                 <div className='text-container' >
                     <div className='' data-aos="fade-right" >
+                        <h4 className='center'>✨ Omega-3 ✨</h4>
                         <p className='texto-inicio'>¿A tu dieta le falta Omega-3? Hay un motivo por el que estos ácidos grasos se llaman "esenciales". Optimum Omega es uno de nuestros mejores suplementos de aceite de pescado que aumenta de forma segura y conveniente tu ingesta de ácidos grasos Omega-3.</p>
                     </div>
                 </div>
@@ -62,7 +63,8 @@ const Inicio = () => {
                 </div>
                 <div className='text-container' data-aos="fade-left">
                     <div >
-                        <p className='texto-inicio'>✨ Kit Piel Radiante ✨
+                        <h4 className='center'>✨ Kit Piel Radiante ✨</h4>
+                        <p className='texto-inicio'>
                             Este kit de skincare está diseñado para renovar, proteger e hidratar la piel, logrando un rostro luminoso, uniforme y saludable desde el primer uso. Gracias a la acción del AHA glicólico, exfolia suavemente eliminando células muertas y mejorando visiblemente la textura y el tono. La niacinamida aporta una poderosa acción calmante, antiinflamatoria y antioxidante, ayudando a prevenir irritaciones y a reforzar la barrera cutánea. Por último, la combinación de ácido hialurónico y vitamina A garantiza una hidratación profunda y duradera, con un efecto antiage que deja la piel suave, fresca y con un glow natural que se mantiene todo el día.</p>
                     </div>
                 </div>
@@ -70,6 +72,7 @@ const Inicio = () => {
             <div className='grid-inicio'>
                 <div className='text-container' data-aos="fade-left">
                     <div>
+                        <h4 className='center'>✨ Beauty Focus Collagen+ ✨</h4>
                         <p className='texto-inicio'>Beauty Focus Collagen+ es un suplemento que te ayuda a mejorar la producción de colágeno y elastina, contribuyendo a aumentar la luminosidad, a reducir visiblemente las líneas de expresión y las arrugas, y a mejorar la hidratación de la piel. Además, Collagen+ es una fórmula única y clínicamente probada. Prepara la piel para obtener mejores beneficios complementarios de los regímenes de cuidado tópico de Nu Skin® y cuenta con certificación SCS de nivel I.</p>
                     </div>
                 </div>

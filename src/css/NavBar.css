@@ -1,8 +1,8 @@
 .navBar-container{
     width: 100%;
     height: 150px;
-    border-bottom: 2px solid 	#A8BDB2;
-    background-color: 	#FAF9F6;
+    border-bottom: 2px solid black;
+    background-color: 	#a8bdb2;
 
 }
 
@@ -18,7 +18,7 @@
 }
 .navbar-text :hover {
     transition: 0.7s;
-    color: #A8BDB2;
+    color: white;
     text-decoration: underline;
 }
 

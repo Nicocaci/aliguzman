@@ -4,7 +4,7 @@
 
 .titulo-container {
     width: 100%;
-    background-color: #efe5b5a6;
+    background-color: #a8bdb2;
     height: 130px;
 }
 
@@ -15,7 +15,7 @@
 }
 .ver-mas{
     width: 100%;
-    background-color: #efe5b5a6;
+    background-color: #a8bdb2;
 }
 .grid-inicio {
     display: grid;
@@ -24,9 +24,10 @@
 
 .text-container {
     /* verde salvia */
-    background-color: #efe5b5a6;
+    background-color: #FAF9F6;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .pruebaNu {
@@ -50,16 +51,18 @@
 
 .btn-inicio {
     padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #efe5b5a6;
+    font-size: 1.3rem;
+    background-color: #a8bdb2;
     border: none;
     border-radius: 5px; 
     cursor: pointer;
     color: black;
     margin-bottom: 20%;
+    text-decoration: underline;
 }
 .btn-inicio:hover{
     color: #85958d;
+
 }
 
 .foto-ali {
@@ -81,7 +84,7 @@
     /* oculto por defecto */
     margin: 1rem auto;
     padding: 0.5rem 1rem;
-    background-color: #fff;
+    background-color: #a8bdb2;
     color: #000;
     border: none;
     border-radius: 5px;
@@ -113,6 +116,10 @@
 
     .grid-inicio>.center {
         order: 1;
+    }
+
+    .text-container{
+        flex-direction: column;
     }
 
     .texto-inicio {
@@ -153,4 +160,7 @@
     .ali{
         overflow: hidden;
     }
+    .img-banner {
+    height: 30vh;
+}
 }
