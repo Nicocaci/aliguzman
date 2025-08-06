@@ -3,7 +3,8 @@
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
     border-top: 2px solid#A8BDB2;
-    padding: 100px;
+    padding: 100px 0 25px 0;
+    border-bottom: 2px solid #A8BDB2;
 }
 
 .titulo-footer{
@@ -14,6 +15,7 @@
     text-decoration: none;
     list-style: none;
     color: black;
+    
 }
 .flex-li{
     display: flex;
@@ -21,10 +23,27 @@
     font-size: 0.8rem;
 }
 
+.footer-lin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 0.9rem;
+    padding: 5px;
+}
+.logo-lin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white{
+    color: white;
+}
+
 @media (max-width:575px) {
     .footer-seccion{
         grid-template-columns: repeat(1, 1fr);
-        justify-items: start;
         gap: 30px;
     }
 }
