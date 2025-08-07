@@ -93,7 +93,7 @@ const Inicio = () => {
                     <div className='center ali' data-aos="fade-right">
                         <img className='foto-ali' src="/alifoto.png" alt="colagen" />
                     </div>
-                    <div className='text-container' data-aos="fade-left">
+                    <div className='text-container'>
                         <div>
                             <p className='texto-inicio'>Me encanta sentirme bien por dentro y por fuera, y eso lo logré gracias a los productos de Nu Skin.
                                 En esta página comparto mis favoritos: los que me ayudan a cuidar mi piel, mi bienestar y potenciar mi mejor versión todos los días.
