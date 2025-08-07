@@ -59,7 +59,7 @@ const Inicio = () => {
             </div>
             <div className='grid-inicio'>
                 <div className='center foto-rutina' data-aos="fade-right">
-                    <img className='' src="/fondorutina.png" alt="colagen" />
+                    <img className='omega' src="/fondorutina.png" alt="colagen" />
                 </div>
                 <div className='text-container' data-aos="fade-left">
                     <div >
@@ -90,7 +90,7 @@ const Inicio = () => {
                     <h1 className='center titulo-inicio'>Quien Soy?</h1>
                 </div>
                 <div className='grid-inicio'>
-                    <div className='center ali' data-aos="fade-right">
+                    <div className='center ali' >
                         <img className='foto-ali' src="/alifoto.png" alt="colagen" />
                     </div>
                     <div className='text-container'>
